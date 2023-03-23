@@ -125,9 +125,9 @@ class Game {
       cells.every(
         ([y, x]) =>
           y >= 0 &&
-          y < this.height &&
+          y < this.HEIGHT &&
           x >= 0 &&
-          x < this.width &&
+          x < this.WIDTH &&
           this.board[y][x] === this.currPlayer
       );
     /** checkForWin: check board cell-by-cell for "does a win start here?" */
